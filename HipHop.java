@@ -40,6 +40,31 @@ package com.excerise.theLoops
         Hiphop()
         {
         }
+        public String getTours()
+        {
+             return tours;
+        }
+        public String getPromotorName() 
+        {
+             return promotorName;
+        }
+        public String getManager();
+        {     
+             return manager;
+        }
+        public double getTrackTime()
+        {
+             return trackTime;
+        }
+        public void setVenuePrice()
+        {
+         this.venuePrice = venuePrice;
+        }
         
+        public String toString()
+        {
+            Stirng hipString = releaseDate.toString() + " " + this.tours + " " + this.manager;
+            return hipString;
+        }
  }
  

@@ -16,7 +16,7 @@ package com.excerise.theLoops
         private int numberOfSongs;
         private Date releaseDate;
         
-        public HipHop(String tours, String manager, int day, int month, int year)
+        HipHop(String tours, String manager, int day, int month, int year)
         {
           //had a super here but removed since it is not an inheritance
           releaseDate = new Date(day, month, year);
@@ -24,8 +24,22 @@ package com.excerise.theLoops
           this.manager = manager;
           
         }
-        public HipHop(double trackTime, double venuePrice, string artist, string manager) 
+        HipHop(double trackTime, double venuePrice, string artist, string manager) 
         {
-          this.
+          this.trackTime = trackTime;
+          this.venuePrice = venuePrice;
+          this.artist = artist;
+          this.manager = manager;
         }
+        HipHop(String tours, double venuePrice, double trackTime) 
+        {
+         this.tours = tours;
+         this.venuePrice = venuePrice;
+         this.trackTime = trackTime;
+        }
+        Hiphop()
+        {
+        }
+        
  }
+ 
